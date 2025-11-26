@@ -1,11 +1,9 @@
 <script setup lang="ts">
-defineProps<{ msg: string }>();
-import image from '../assets/vue.svg';
+import Logo from '../assets/images/logo.svg';
 </script>
 
 <template>
   <header>
-    <img :src="image" alt="image" />
-    <h1>{{ msg }}</h1>
+    <img class="p-8" :src="Logo" alt="Logo" />
   </header>
 </template>

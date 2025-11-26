@@ -1,7 +1,9 @@
 <script setup lang="ts">
 import Header from './components/Header.vue';
+import Hero from './components/Hero.vue';
 </script>
 
 <template>
-  <Header msg="Base apparel" />
+  <Header />
+  <main><Hero /></main>
 </template>
